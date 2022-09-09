@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+    <title>NFT</title>
+    <style>
+        html,body{
+           height: 100%; 
+        }
+        body{
+            background-color: rgba(13,26,45,255);
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            height: 100%;
+        }
+        .box{
+            display: grid;
+            grid-template-rows: 1.4fr 1fr;
+            width: 250px;
+            height: 450px;
+            background-color: rgba(21,39,63,255);
+            border-radius: 7px;
+            box-shadow: 10px 10px 13px 12px rgba(12,23,41,255);
+            justify-content: center;
+            align-content: center;
+           
+        }
+        .imgbox{
+            display: inline-block;
+            height: 210px;
+            width: 220px;
+            margin-top: 20px;
+           
+            margin-left: 12px;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 7px;
+        }
+        .equil{
+            
+            font-family: 'Open Sans', sans-serif;
+            color:white;
+           
+        }.equil:hover{
+            color:rgba(30,247,242,255);
+            cursor:pointer;
+        }
+        .textbox{
+           margin-top:-6px;
+            margin-left: 12px;
+        }
+        .text{
+           width: 95%;
+           font-family: 'Lato', sans-serif;
+           color: rgba(99,122,150,255);
+        }
+        .eth{
+            font-family: 'Open Sans', sans-serif;
+            color:rgba(30,247,242,255);
+            font-weight: bold;
+        }
+        .time{
+            margin-left: 40px;
+            font-family: 'Lato', sans-serif;
+            color: rgba(99,122,150,255);
+        }
+        .line{
+            margin-top: 10px;
+            margin-right: 12px;
+            border: 1px rgba(99,122,150,255) solid;
+        }
+        .create{
+            margin-top: 15px;
+            color: rgba(99,122,150,255);
+            font-family: 'Lato', sans-serif;
+        }
+        .diff{
+            color:white;
+            font-family: 'Open Sans', sans-serif;
+        }.diff:hover{
+            color:rgba(30,247,242,255);
+            cursor:pointer;
+        }
+        .clockicon{
+            position: relative;
+            top: 3.6px;
+            padding-right: 4px;
+        }.view{
+            position:absolute;
+            padding-top: 90px;
+            padding-left: 87px;
+            border-radius: 7px;
+            width: 133px;
+            height: 120px;
+            opacity: 0;
+        }.view:hover{
+            opacity: 1;
+            background-color:rgba(30,247,242,0.7);
+        }
+        
+    </style>
+</head>
+<body>
+        <div class="box">
+            <div class="imgbox">
+                <svg class="view" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h48v48H0z"/><path d="M24 9C14 9 5.46 15.22 2 24c3.46 8.78 12 15 22 15 10.01 0 18.54-6.22 22-15-3.46-8.78-11.99-15-22-15Zm0 25c-5.52 0-10-4.48-10-10s4.48-10 10-10 10 4.48 10 10-4.48 10-10 10Zm0-16c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6Z" fill="#FFF" fill-rule="nonzero"/></g></svg>
+                <img src="image-equilibrium.jpg">
+            </div>
+            <div class="textbox">
+                <div class="equil">Equilibrium #3429</div>
+                <p class="text">Our Equilibrium collection promotes balance and calm.</p>
+                <span class="eth"> <svg class="ethicon" width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg> 0.041ETH</span><span class="time"><svg class="clockicon" width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>3 days left</span>
+                <div class="line"></div>
+                <div class="create">Creation of <span class="diff">Jules Wyvern</span></div>
+            </div>
+        </div>
+    
+
+</body>
+</html>
